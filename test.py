@@ -1,5 +1,6 @@
-import subprocess
+from flask import Flask
 
-print(1)
-print(2)
-print(5)
+app = Flask(__name__)
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=PORT)
