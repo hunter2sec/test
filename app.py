@@ -1,2 +1,3 @@
-#import subprocess
+import subprocess
 print(1)
+print(2)
